@@ -11,7 +11,7 @@ const TEXT_CATEGORIES = {
   ],
   LIFE: [
     "Anavataninizi birakmak kolay bir sey degil. Hayatinizda alacaginiz en buyuk risklerden biridir.",
-    "Kanada'nin vasifli, kalifiye elemana ihtiyaci var, " + event.user.first_name ,
+    "Kanada'nin vasifli, kalifiye elemana ihtiyaci var",
     "Kanada'nin resmi gocmenlik sitesini de ziyaret edebilirsiniz! www.canada.ca/en/services/immigration-citizenship.html !"
   ],
   GYM: [
