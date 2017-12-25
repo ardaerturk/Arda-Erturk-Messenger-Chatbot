@@ -7,14 +7,14 @@ const manageSubscriptions = (bp, userId) => {
     if (subscribed) {
       bp.messenger.sendTemplate(userId, {
         template_type: 'button',
-        text: "You are currently subscribed to receive daily motivational videos at 8AM (your time).",
-        buttons: [ { type: 'postback', title: 'Unsubscribe', payload: 'UNSUBSCRIBE_DAILY'} ]
+        text: "Her gun saat 20'de video tavsiyesi almak icin kayitlisiniz.",
+        buttons: [ { type: 'postback', title: 'Kayittan çik', payload: 'UNSUBSCRIBE_DAILY'} ]
       })
     } else {
       bp.messenger.sendTemplate(userId, {
         template_type: 'button',
-        text: "Click the button below to subscribe to daily motivational videos. You'll receive one every day at 8AM (your time)!",
-        buttons: [ { type: 'postback', title: 'Subscribe', payload: 'SUBSCRIBE_DAILY'} ]
+        text: "Her gun saat 20'de yeni bir video tavsiyesi almak icin kayit ol tusuna basabilirsin!",
+        buttons: [ { type: 'postback', title: 'Kayit ol', payload: 'SUBSCRIBE_DAILY'} ]
       })
     }
   })
@@ -32,7 +32,7 @@ const scheduleBroadcast = bp => async () => {
   
   return api.put('botpress-broadcast/broadcasts', {
     date: tomorrow,
-    time: '08:00',
+    time: '20:00',
     timezone: null, // users timezone
     type: 'javascript',
     content: "bp.sendDailyVideo(userId)",

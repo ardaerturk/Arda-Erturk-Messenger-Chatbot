@@ -15,9 +15,9 @@ const TEXT_CATEGORIES = {
     "Kanada'nin resmi gocmenlik sitesini de ziyaret edebilirsiniz! www.canada.ca/en/services/immigration-citizenship.html !"
   ],
   GYM: [
-    "You will find yourself working 20% harder just by listening to this on the trendmill",
-    "Happy to be your workout mate... Watch this!",
-    "If you are not pumped up after this video, I really don't know what to tell you"
+    "Kanada'nin insanlari diyorum baska bir sey demiyorum :-)",
+    "Bunu mutlaka izlemeni oneririm!",
+    "Kanada mukemmel bir ulke degil. Her ulkede oldugu gibi Kanada'da da yasanan zorluklar var."
   ]
 }
 
@@ -25,17 +25,17 @@ const pickCategory = {
   quick_replies: [
     {
       content_type: 'text',
-      title: "🔥 Kanada'da Egitim 🔥",
+      title: "🎓 Kanada'da Egitim 🎒",
       payload: 'GET_VIDEO_WORK'
     },
     {
       content_type: 'text',
-      title: "😌 Kanada'da Gocmenlik 🔥",
+      title: "❄ Kanada'da Gocmenlik 👳",
       payload: 'GET_VIDEO_LIFE'
     },
     {
       content_type: 'text',
-      title: "💪 Kanada'da Hayat 🔥",
+      title: "⛄ Kanada'da Hayat 🏒",
       payload: 'GET_VIDEO_GYM'
     }
   ],
@@ -45,36 +45,36 @@ const pickCategory = {
 const WELCOME_SENTENCES = [
   "Merhaba. Ben Arda'nin urettigi bir yapay zekayim. Bugun sana sorularinda ben yardimci olacagim! 👏",
   "Su anlik sadece butonlar uzerinden anlasabilecegiz. Sana hangi konularda yardimci olabilecegimi bu sekilde anlayacagim. Bu ikimiz icin de en kolayi olacak. 🤖",
-  "👉 Zorlanirsan messenger'in menulerini kullanabilirsin."
+  "👉 Lutfen asagida bulunan butonlardan hanig konuda bilgi almak istedigini sec."
 ]
 
 const WELCOME_TEXT_QUICK_REPLY = "Hemen bir kategori sec ve hemen sana bu konuyla ilgili bir video yollayayim!"
 
 const DEFAULT_ANSWERS = event => [
   event.user.first_name + ", lutfen asagidaki menuden bir baslik sec. Henuz ne dedigini anlayamiyorum :)",
-  "Eyvah! Kelimelerle aram pek iyi degil " + event.user.first_name,
-  "Benim tek anlayabildigim sey, Arda'nin videolari",
-  event.user.first_name + " seni sevdim. Anlamama ragmen bana bir seyler yaziyorsun :s",
-  "Anladigim kadariyla Arda'nin bana yeni ozellikler katmasi sart " + event.user.first_name + ", daha insanlarin ne dedigini anlayamiyorum. Ama emin ol, Arda gercekten cok yogun."
+  "Eyvah! Kelimelerle aram pek iyi degil " + event.user.first_name + ". Asagidaki kategorilerden secim yapar misin?",
+  "Benim tek anlayabildigim sey, asagidaki butonlar :-)",
+  event.user.first_name + " seni sevdim. Anlamama ragmen bana bir seyler yaziyorsun :s Asagidaki butonlari kullanirsan daha iyi anlasabilecegimizden hic suphem yok!",
+  "Anladigim kadariyla Arda'nin bana yeni ozellikler katmasi sart " + event.user.first_name + ", daha insanlarin ne dedigini anlayamiyorum. Ama emin ol, Arda gercekten cok yogun. Lutfen asagidaki butonlari kullan"
 ]
 
 const shareTemplate = {
   template_type: 'generic',
   elements: [{
-    title: 'Clicking this button could literally change your life',
+    title: "Asagidaki butona tiklamak hatinizi degistirebilir! Kanada'da neler oluyor?, Nasil geleblirim? gibi sorularinizin cevabi icin kanalima abone olabilirsiniz!",
     item_url: 'https://m.me/boostfuel',
-    image_url: 'https://s27.postimg.org/dl8i0udqb/motivation_on_demand.png',
+    image_url: 'https://fokushaber.com/wp-content/uploads/2017/11/Kanada-sohbet.jpg',
     buttons: [{
       type: 'web_url',
-      title: '👏 Make it happen',
-      url: 'https://m.me/boostfuel'
+      title: '👏 Abone Ol',
+      url: 'https://goo.gl/iTc9cY'
     }, { type: 'element_share' }]
   }]
 }
 
-const SHARE_TEXT = "PLEASE! If you enjoy the service I am giving you, consider sharing the card below with some of your friends 👇!"
+const SHARE_TEXT = "Senden hic bir karsilik beklemeden sana yardimci oluyorum. Senden rica etsem, Arda'nin kanalini buyutmesi icin yardimci olur musun? Asagidaki secenklerden arkadaslarinda paylasabilirsin.👇!"
 
-const OPEN_SOURCE_TEXT = "This bot is open-source and released under the AGPL-3 license. Contributions are welcomed.\n⚡ This bot is powered by the Botpress Platform."
+const OPEN_SOURCE_TEXT = "Bu bot acik-kaynakli bir bottur ve AGPL-3 lisansi ile korunmaktadir.\n⚡ Bu bot Botpress Platform'u uzerinden gelistirilmistir."
 
 module.exports = function(bp) {
   bp.middlewares.load()
@@ -144,13 +144,13 @@ module.exports = function(bp) {
           buttons: [
             {
               type: 'web_url',
-              title: '🔥 Watch 🔥',
+              title: '🔥 Hemen izle 🔥',
               url: meta.url,
               webview_height_ratio: 'full'
             },
             {
               type: 'postback',
-              title: '👉 Next video',
+              title: '👉 Siradaki video',
               payload: 'GET_VIDEO_' + category
             },
             { type: 'element_share' }
@@ -176,7 +176,7 @@ module.exports = function(bp) {
 
   bp.sendDailyVideo = userId => {
     const category = _.sample(_.keys(TEXT_CATEGORIES))
-    const text = "Here's your daily motivational video, have an excellent day 😁!"
+    const text = "Merhaba. Gunluk videonu izlemeyi unutma. Iyi gunler dilerim 😁!"
 
     bp.messenger.sendText(userId, text)
     .then(Promise.delay(1000))
