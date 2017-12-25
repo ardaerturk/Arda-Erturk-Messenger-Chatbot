@@ -1,0 +1,32 @@
+{
+  "name": "motivation-bot",
+  "version": "0.0.1",
+  "description": "Tutorial to show users how to build a chatbot easily.",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "bluebird": "^3.4.6",
+    "botpress": "^0.2.1",
+    "botpress-analytics": "^2.0.6",
+    "botpress-api.ai": "^2.1.7",
+    "botpress-broadcast": "^2.0.3",
+    "botpress-dialog": "^1.0.12",
+    "botpress-messenger": "^2.2.9",
+    "botpress-rivescript": "^2.0.7",
+    "botpress-scheduler": "^2.0.4",
+    "botpress-subscription": "^2.0.5",
+    "botpress-terminal": "^1.0.2",
+    "botpress-webhook": "^1.0.1",
+    "lodash": "^4.17.2",
+    "moment": "^2.17.1"
+  },
+  "scripts": {
+    "start": "botpress start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Botpress Team",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "husky": "^0.12.0"
+  }
+}
