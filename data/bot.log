@@ -2238,3 +2238,243 @@
 {"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2017-12-25T20:36:22.394Z"}
 {"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2017-12-25T20:36:23.805Z"}
 {"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2017-12-25T20:51:40.540Z"}
+{"level":"info","message":"Starting botpress version 0.2.4","timestamp":"2018-01-01T22:02:42.059Z"}
+{"level":"info","message":"Loaded botpress-analytics, version 2.2.7","timestamp":"2018-01-01T22:02:44.146Z"}
+{"level":"info","message":"Loaded botpress-api.ai, version 2.1.7","timestamp":"2018-01-01T22:02:44.157Z"}
+{"level":"info","message":"Loaded botpress-broadcast, version 2.0.11","timestamp":"2018-01-01T22:02:44.179Z"}
+{"level":"info","message":"Loaded botpress-dialog, version 1.0.17","timestamp":"2018-01-01T22:02:44.257Z"}
+{"level":"info","message":"Loaded botpress-messenger, version 2.2.9","timestamp":"2018-01-01T22:02:44.344Z"}
+{"level":"info","message":"Loaded botpress-rivescript, version 2.0.7","timestamp":"2018-01-01T22:02:44.565Z"}
+{"level":"info","message":"Loaded botpress-scheduler, version 2.0.9","timestamp":"2018-01-01T22:02:44.624Z"}
+{"level":"info","message":"Loaded botpress-subscription, version 2.0.7","timestamp":"2018-01-01T22:02:44.631Z"}
+{"level":"info","message":"Loaded botpress-terminal, version 1.0.2","timestamp":"2018-01-01T22:02:44.642Z"}
+{"level":"info","message":"Loaded botpress-webhook, version 1.0.1","timestamp":"2018-01-01T22:02:44.689Z"}
+{"level":"info","message":"Loaded 10 modules","timestamp":"2018-01-01T22:02:44.689Z"}
+{"level":"debug","message":"Loading middleware: analytics.incoming","timestamp":"2018-01-01T22:02:44.711Z"}
+{"level":"debug","message":"Loading middleware: analytics.outgoing","timestamp":"2018-01-01T22:02:44.712Z"}
+{"level":"debug","message":"SKIPPING middleware: dialog.outgoing.attach  [Reason=disabled]","timestamp":"2018-01-01T22:02:44.713Z"}
+{"level":"debug","message":"Loading middleware: dialog.incoming","timestamp":"2018-01-01T22:02:44.713Z"}
+{"level":"debug","message":"Loading middleware: dialog.outgoing","timestamp":"2018-01-01T22:02:44.713Z"}
+{"level":"debug","message":"Loading middleware: manage.subscriptions","timestamp":"2018-01-01T22:02:44.714Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2018-01-01T22:02:44.714Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2018-01-01T22:02:44.715Z"}
+{"level":"debug","message":"Loading middleware: rivescript.processIncomingMessages","timestamp":"2018-01-01T22:02:44.715Z"}
+{"level":"debug","message":"Loading middleware: conversations","timestamp":"2018-01-01T22:02:44.716Z"}
+{"level":"debug","message":"Loading middleware: apiai.incoming","timestamp":"2018-01-01T22:02:44.717Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2018-01-01T22:02:44.845Z"}
+{"level":"debug","message":"[rivescript] Restoring brain","timestamp":"2018-01-01T22:02:44.866Z"}
+{"message":"An error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#2200) Callback verification failed with the following errors: HTTP Status Code = 503; HTTP Message = Unavailable","stack":"Error: An error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#2200) Callback verification failed with the following errors: HTTP Status Code = 503; HTTP Message = Unavailable\n    at /Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/botpress-messenger/bin/webpack:/src/messenger.js:600:13\n    at PassThroughHandlerContext.finallyHandler (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/finally.js:56:23)\n    at PassThroughHandlerContext.tryCatcher (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/util.js:16:23)\n    at Promise._settlePromiseFromHandler (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:512:31)\n    at Promise._settlePromise (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:569:18)\n    at Promise._settlePromise0 (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:614:10)\n    at Promise._settlePromises (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:693:18)\n    at Async._drainQueue (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/async.js:133:16)\n    at Async._drainQueues (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/async.js:143:10)\n    at Immediate.Async.drainQueues [as _onImmediate] (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/async.js:17:14)\n    at runCallback (timers.js:773:18)\n    at tryOnImmediate (timers.js:734:5)\n    at processImmediate [as _immediateCallback] (timers.js:711:5)","level":"error","timestamp":"2018-01-01T22:02:45.591Z"}
+{"level":"error","message":"[notification::botpress-messenger] Error updating Messenger App. Please see logs for details.","timestamp":"2018-01-01T22:02:45.599Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-01-01T22:02:49.960Z"}
+{"level":"info","message":"Starting botpress version 0.2.4","timestamp":"2018-01-01T22:06:06.415Z"}
+{"level":"info","message":"Loaded botpress-analytics, version 2.2.7","timestamp":"2018-01-01T22:06:08.404Z"}
+{"level":"info","message":"Loaded botpress-api.ai, version 2.1.7","timestamp":"2018-01-01T22:06:08.412Z"}
+{"level":"info","message":"Loaded botpress-broadcast, version 2.0.11","timestamp":"2018-01-01T22:06:08.429Z"}
+{"level":"info","message":"Loaded botpress-dialog, version 1.0.17","timestamp":"2018-01-01T22:06:08.482Z"}
+{"level":"info","message":"Loaded botpress-messenger, version 2.2.9","timestamp":"2018-01-01T22:06:08.569Z"}
+{"level":"info","message":"Loaded botpress-rivescript, version 2.0.7","timestamp":"2018-01-01T22:06:08.779Z"}
+{"level":"info","message":"Loaded botpress-scheduler, version 2.0.9","timestamp":"2018-01-01T22:06:08.828Z"}
+{"level":"info","message":"Loaded botpress-subscription, version 2.0.7","timestamp":"2018-01-01T22:06:08.836Z"}
+{"level":"info","message":"Loaded botpress-terminal, version 1.0.2","timestamp":"2018-01-01T22:06:08.851Z"}
+{"level":"info","message":"Loaded botpress-webhook, version 1.0.1","timestamp":"2018-01-01T22:06:08.897Z"}
+{"level":"info","message":"Loaded 10 modules","timestamp":"2018-01-01T22:06:08.897Z"}
+{"level":"debug","message":"Loading middleware: analytics.incoming","timestamp":"2018-01-01T22:06:08.923Z"}
+{"level":"debug","message":"Loading middleware: analytics.outgoing","timestamp":"2018-01-01T22:06:08.923Z"}
+{"level":"debug","message":"SKIPPING middleware: dialog.outgoing.attach  [Reason=disabled]","timestamp":"2018-01-01T22:06:08.924Z"}
+{"level":"debug","message":"Loading middleware: dialog.incoming","timestamp":"2018-01-01T22:06:08.924Z"}
+{"level":"debug","message":"Loading middleware: dialog.outgoing","timestamp":"2018-01-01T22:06:08.924Z"}
+{"level":"debug","message":"Loading middleware: manage.subscriptions","timestamp":"2018-01-01T22:06:08.925Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2018-01-01T22:06:08.925Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2018-01-01T22:06:08.926Z"}
+{"level":"debug","message":"Loading middleware: rivescript.processIncomingMessages","timestamp":"2018-01-01T22:06:08.926Z"}
+{"level":"debug","message":"Loading middleware: conversations","timestamp":"2018-01-01T22:06:08.927Z"}
+{"level":"debug","message":"Loading middleware: apiai.incoming","timestamp":"2018-01-01T22:06:08.927Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2018-01-01T22:06:09.051Z"}
+{"level":"debug","message":"[rivescript] Restoring brain","timestamp":"2018-01-01T22:06:09.079Z"}
+{"message":"Error setting persistent menu\nAn error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#105) param persistent_menu[0][call_to_actions] has too many elements.","stack":"Error: Error setting persistent menu\nAn error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#105) param persistent_menu[0][call_to_actions] has too many elements.\n    at /Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/botpress-messenger/bin/webpack:/src/messenger.js:482:13\n    at <anonymous>","level":"error","timestamp":"2018-01-01T22:06:11.612Z"}
+{"level":"error","message":"[notification::botpress-messenger] Error updating Messenger App. Please see logs for details.","timestamp":"2018-01-01T22:06:11.616Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:06:31.914Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-01T22:06:31.916Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:06:32.219Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:06:32.220Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:06:32.701Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-01T22:06:32.702Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:06:32.707Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:06:32.707Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:06:33.506Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:06:33.699Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:06:35.088Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:06:35.890Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:06:38.085Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:06:43.003Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-01T22:06:43.048Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:06:43.057Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:06:43.059Z"}
+{"level":"warn","message":"botpress-api.ai API Error. Could not process incoming text: [401] Type:unauthorized:","timestamp":"2018-01-01T22:06:43.415Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:06:46.323Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:06:47.076Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:06:47.224Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:06:51.934Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-01T22:06:51.936Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:06:51.942Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:06:51.943Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:06:52.463Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:06:52.627Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:06:52.855Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:06:55.288Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-01T22:06:55.293Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:06:55.298Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:06:55.299Z"}
+{"level":"warn","message":"botpress-api.ai API Error. Could not process incoming text: [401] Type:unauthorized:","timestamp":"2018-01-01T22:06:55.538Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:06:58.534Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:06:58.770Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:06:59.141Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:21.150Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-01T22:07:21.152Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:07:21.160Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:07:21.161Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:21.730Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:21.880Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-01T22:07:21.907Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:07:21.914Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:22.096Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:23.072Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:23.583Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:23.762Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:31.933Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-01T22:07:31.936Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:07:31.941Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:07:31.942Z"}
+{"level":"warn","message":"botpress-api.ai API Error. Could not process incoming text: [401] Type:unauthorized:","timestamp":"2018-01-01T22:07:32.135Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:35.856Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:36.081Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:36.587Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:38.625Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-01T22:07:38.627Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:07:38.636Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:07:38.637Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:39.228Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:39.444Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:41.309Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-01T22:07:41.312Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:07:41.321Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:07:41.322Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:41.349Z"}
+{"level":"warn","message":"botpress-api.ai API Error. Could not process incoming text: [401] Type:unauthorized:","timestamp":"2018-01-01T22:07:41.576Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:45.108Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:45.299Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:46.504Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:47.415Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-01T22:07:47.416Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:07:47.421Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:07:47.421Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:47.965Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:48.005Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-01T22:07:48.057Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:07:48.062Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:48.198Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:49.682Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:49.851Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:49.924Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:50.320Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-01-01T22:07:54.243Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:54.900Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-01T22:07:54.901Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:07:54.908Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:07:54.909Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:55.567Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-01T22:07:55.658Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:07:55.664Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:55.742Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:55.943Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:56.978Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:57.173Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:07:57.368Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:08:09.575Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-01T22:08:09.578Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:08:09.582Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:08:09.583Z"}
+{"level":"warn","message":"botpress-api.ai API Error. Could not process incoming text: [401] Type:unauthorized:","timestamp":"2018-01-01T22:08:09.884Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-01T22:08:11.763Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:08:11.769Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-01T22:08:12.015Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:08:12.021Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:08:12.338Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:08:12.523Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:08:13.027Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:08:13.072Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:08:13.074Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:08:13.230Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:08:13.351Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:08:13.791Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:08:13.836Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:08:50.641Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-01T22:08:50.644Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:08:50.650Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:08:50.651Z"}
+{"level":"warn","message":"botpress-api.ai API Error. Could not process incoming text: [401] Type:unauthorized:","timestamp":"2018-01-01T22:08:50.929Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:08:53.823Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:08:54.723Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:08:55.140Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:08:56.122Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-01T22:08:56.127Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:08:56.132Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:08:56.135Z"}
+{"level":"warn","message":"botpress-api.ai API Error. Could not process incoming text: [401] Type:unauthorized:","timestamp":"2018-01-01T22:08:56.337Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:09:00.282Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:09:00.712Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:09:01.032Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-01T22:09:01.034Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:09:01.041Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:09:01.042Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:09:01.500Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:09:01.631Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:09:01.634Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:09:02.280Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-01-01T22:12:59.441Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-01-01T22:17:59.627Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:19:35.144Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:19:51.923Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:20:13.128Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:20:19.150Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:20:19.217Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-01T22:20:19.218Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:20:19.378Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-01T22:20:19.379Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:20:19.763Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:20:19.823Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:20:20.110Z"}
+{"message":"Unhandled Rejection in Promise:  Promise {\n  _bitField: 152305664,\n  _fulfillmentHandler0: \n   { Error: EACCES: permission denied, open '/Users/ardaerturk/Desktop/Bot Sample/Boost-master/data/modules-cache.json'\n    at Object.fs.openSync (fs.js:663:18)\n    at Object.fs.writeFileSync (fs.js:1314:33)\n    at /Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/botpress/lib/webpack:/src/modules.js:214:10\n    at tryCatcher (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/util.js:16:23)\n    at Promise._settlePromiseFromHandler (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:512:31)\n    at Promise._settlePromise (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:569:18)\n    at Promise._settlePromise0 (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:614:10)\n    at Promise._settlePromises (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:693:18)\n    at Promise._fulfill (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:638:18)\n    at PropertiesPromiseArray.PromiseArray._resolve (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise_array.js:126:19)\n    at PropertiesPromiseArray._promiseFulfilled (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/props.js:78:14)\n    at Promise._settlePromise (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:574:26)\n    at Promise._settlePromise0 (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:614:10)\n    at Promise._settlePromises (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:693:18)\n    at Async._drainQueue (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/async.js:133:16)\n    at Async._drainQueues (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/async.js:143:10)\n     errno: -13,\n     code: 'EACCES',\n     syscall: 'open',\n     path: '/Users/ardaerturk/Desktop/Bot Sample/Boost-master/data/modules-cache.json' },\n  _rejectionHandler0: undefined,\n  _promise0: undefined,\n  _receiver0: undefined } Reason:","stack":"Error: EACCES: permission denied, open '/Users/ardaerturk/Desktop/Bot Sample/Boost-master/data/modules-cache.json'\n    at Object.fs.openSync (fs.js:663:18)\n    at Object.fs.writeFileSync (fs.js:1314:33)\n    at /Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/botpress/lib/webpack:/src/modules.js:214:10\n    at tryCatcher (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/util.js:16:23)\n    at Promise._settlePromiseFromHandler (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:512:31)\n    at Promise._settlePromise (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:569:18)\n    at Promise._settlePromise0 (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:614:10)\n    at Promise._settlePromises (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:693:18)\n    at Promise._fulfill (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:638:18)\n    at PropertiesPromiseArray.PromiseArray._resolve (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise_array.js:126:19)\n    at PropertiesPromiseArray._promiseFulfilled (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/props.js:78:14)\n    at Promise._settlePromise (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:574:26)\n    at Promise._settlePromise0 (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:614:10)\n    at Promise._settlePromises (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:693:18)\n    at Async._drainQueue (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/async.js:133:16)\n    at Async._drainQueues (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/async.js:143:10)","errno":-13,"code":"EACCES","syscall":"open","path":"/Users/ardaerturk/Desktop/Bot Sample/Boost-master/data/modules-cache.json","level":"error","timestamp":"2018-01-01T22:20:55.573Z"}
+{"level":"error","message":"Error: EACCES: permission denied, open '/Users/ardaerturk/Desktop/Bot Sample/Boost-master/data/modules-cache.json'\n    at Object.fs.openSync (fs.js:663:18)\n    at Object.fs.writeFileSync (fs.js:1314:33)\n    at /Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/botpress/lib/webpack:/src/modules.js:214:10\n    at tryCatcher (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/util.js:16:23)\n    at Promise._settlePromiseFromHandler (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:512:31)\n    at Promise._settlePromise (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:569:18)\n    at Promise._settlePromise0 (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:614:10)\n    at Promise._settlePromises (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:693:18)\n    at Promise._fulfill (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:638:18)\n    at PropertiesPromiseArray.PromiseArray._resolve (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise_array.js:126:19)\n    at PropertiesPromiseArray._promiseFulfilled (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/props.js:78:14)\n    at Promise._settlePromise (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:574:26)\n    at Promise._settlePromise0 (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:614:10)\n    at Promise._settlePromises (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:693:18)\n    at Async._drainQueue (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/async.js:133:16)\n    at Async._drainQueues (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/async.js:143:10)","timestamp":"2018-01-01T22:20:55.574Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-01-01T22:22:59.852Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-01T22:24:27.813Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-01-01T22:28:05.017Z"}
+{"level":"info","message":"Starting botpress version 0.2.4","timestamp":"2018-01-01T22:31:41.181Z"}
+{"level":"info","message":"Loaded botpress-analytics, version 2.2.7","timestamp":"2018-01-01T22:31:43.233Z"}
+{"level":"info","message":"Loaded botpress-api.ai, version 2.1.7","timestamp":"2018-01-01T22:31:43.245Z"}
+{"level":"info","message":"Loaded botpress-broadcast, version 2.0.11","timestamp":"2018-01-01T22:31:43.278Z"}
+{"level":"info","message":"Loaded botpress-dialog, version 1.0.17","timestamp":"2018-01-01T22:31:43.349Z"}
+{"level":"info","message":"Loaded botpress-messenger, version 2.2.9","timestamp":"2018-01-01T22:31:43.443Z"}
+{"level":"info","message":"Loaded botpress-rivescript, version 2.0.7","timestamp":"2018-01-01T22:31:43.700Z"}
+{"level":"info","message":"Loaded botpress-scheduler, version 2.0.9","timestamp":"2018-01-01T22:31:43.758Z"}
+{"level":"info","message":"Loaded botpress-subscription, version 2.0.7","timestamp":"2018-01-01T22:31:43.766Z"}
+{"level":"info","message":"Loaded botpress-terminal, version 1.0.2","timestamp":"2018-01-01T22:31:43.777Z"}
+{"level":"info","message":"Loaded botpress-webhook, version 1.0.1","timestamp":"2018-01-01T22:31:43.832Z"}
+{"level":"info","message":"Loaded 10 modules","timestamp":"2018-01-01T22:31:43.832Z"}
+{"level":"debug","message":"Loading middleware: analytics.incoming","timestamp":"2018-01-01T22:31:43.859Z"}
+{"level":"debug","message":"Loading middleware: analytics.outgoing","timestamp":"2018-01-01T22:31:43.859Z"}
+{"level":"debug","message":"SKIPPING middleware: dialog.outgoing.attach  [Reason=disabled]","timestamp":"2018-01-01T22:31:43.860Z"}
+{"level":"debug","message":"Loading middleware: dialog.incoming","timestamp":"2018-01-01T22:31:43.860Z"}
+{"level":"debug","message":"Loading middleware: dialog.outgoing","timestamp":"2018-01-01T22:31:43.860Z"}
+{"level":"debug","message":"Loading middleware: manage.subscriptions","timestamp":"2018-01-01T22:31:43.861Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2018-01-01T22:31:43.861Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2018-01-01T22:31:43.862Z"}
+{"level":"debug","message":"Loading middleware: rivescript.processIncomingMessages","timestamp":"2018-01-01T22:31:43.862Z"}
+{"level":"debug","message":"Loading middleware: conversations","timestamp":"2018-01-01T22:31:43.863Z"}
+{"level":"debug","message":"Loading middleware: apiai.incoming","timestamp":"2018-01-01T22:31:43.863Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2018-01-01T22:31:44.001Z"}
+{"level":"debug","message":"[rivescript] Restoring brain","timestamp":"2018-01-01T22:31:44.034Z"}
+{"message":"Error setting persistent menu\nAn error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#105) param persistent_menu[0][call_to_actions] has too many elements.","stack":"Error: Error setting persistent menu\nAn error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#105) param persistent_menu[0][call_to_actions] has too many elements.\n    at /Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/botpress-messenger/bin/webpack:/src/messenger.js:482:13\n    at <anonymous>","level":"error","timestamp":"2018-01-01T22:31:46.206Z"}
+{"level":"error","message":"[notification::botpress-messenger] Error updating Messenger App. Please see logs for details.","timestamp":"2018-01-01T22:31:46.211Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-01-01T22:33:09.255Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-01-01T22:44:46.964Z"}

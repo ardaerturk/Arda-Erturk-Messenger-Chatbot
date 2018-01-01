@@ -81,6 +81,19 @@ module.exports = function(bp) {
   subscription(bp)
 
   bp.hear({
+    type: 'message',
+    text: 'merhaba'
+  }, (event, next) => {
+    const id = event.user.id
+    const first_name = event.user.first_name
+
+    const text = 'Merhaba' + event.user.first_name
+    bp.messenger.sendText(id, text)
+  }
+
+    )
+
+  bp.hear({
     type: 'postback',
     text: 'GET_STARTED' 
   }, (event, next) => {
@@ -110,7 +123,7 @@ module.exports = function(bp) {
       buttons: [{ 
         type: 'web_url',
         title: 'View on GitHub',
-        url: 'https://github.com/botpress/Boost'
+        url: 'https://github.com/ardaerturk'
       }]
     })
   })

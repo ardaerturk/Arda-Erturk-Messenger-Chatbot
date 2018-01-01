@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "axios": "^0.15.3",
-    "bluebird": "^3.4.6",
+    "bluebird": "^3.5.1",
     "botpress": "^0.2.1",
     "botpress-analytics": "^2.0.6",
     "botpress-api.ai": "^2.1.7",
@@ -17,7 +17,7 @@
     "botpress-subscription": "^2.0.5",
     "botpress-terminal": "^1.0.2",
     "botpress-webhook": "^1.0.1",
-    "lodash": "^4.17.2",
+    "lodash": "^4.17.4",
     "moment": "^2.17.1"
   },
   "scripts": {
