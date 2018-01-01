@@ -2478,3 +2478,31 @@
 {"level":"error","message":"[notification::botpress-messenger] Error updating Messenger App. Please see logs for details.","timestamp":"2018-01-01T22:31:46.211Z"}
 {"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-01-01T22:33:09.255Z"}
 {"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-01-01T22:44:46.964Z"}
+{"level":"info","message":"Starting botpress version 0.2.4","timestamp":"2018-01-01T22:53:15.309Z"}
+{"level":"info","message":"Loaded botpress-analytics, version 2.2.7","timestamp":"2018-01-01T22:53:17.352Z"}
+{"level":"info","message":"Loaded botpress-api.ai, version 2.1.7","timestamp":"2018-01-01T22:53:17.363Z"}
+{"level":"info","message":"Loaded botpress-broadcast, version 2.0.11","timestamp":"2018-01-01T22:53:17.384Z"}
+{"level":"info","message":"Loaded botpress-dialog, version 1.0.17","timestamp":"2018-01-01T22:53:17.457Z"}
+{"level":"info","message":"Loaded botpress-messenger, version 2.2.9","timestamp":"2018-01-01T22:53:17.540Z"}
+{"level":"info","message":"Loaded botpress-rivescript, version 2.0.7","timestamp":"2018-01-01T22:53:17.755Z"}
+{"level":"info","message":"Loaded botpress-scheduler, version 2.0.9","timestamp":"2018-01-01T22:53:17.802Z"}
+{"level":"info","message":"Loaded botpress-subscription, version 2.0.7","timestamp":"2018-01-01T22:53:17.811Z"}
+{"level":"info","message":"Loaded botpress-terminal, version 1.0.2","timestamp":"2018-01-01T22:53:17.819Z"}
+{"level":"info","message":"Loaded botpress-webhook, version 1.0.1","timestamp":"2018-01-01T22:53:17.860Z"}
+{"level":"info","message":"Loaded 10 modules","timestamp":"2018-01-01T22:53:17.860Z"}
+{"level":"debug","message":"Loading middleware: analytics.incoming","timestamp":"2018-01-01T22:53:17.885Z"}
+{"level":"debug","message":"Loading middleware: analytics.outgoing","timestamp":"2018-01-01T22:53:17.885Z"}
+{"level":"debug","message":"SKIPPING middleware: dialog.outgoing.attach  [Reason=disabled]","timestamp":"2018-01-01T22:53:17.886Z"}
+{"level":"debug","message":"Loading middleware: dialog.incoming","timestamp":"2018-01-01T22:53:17.886Z"}
+{"level":"debug","message":"Loading middleware: dialog.outgoing","timestamp":"2018-01-01T22:53:17.887Z"}
+{"level":"debug","message":"Loading middleware: manage.subscriptions","timestamp":"2018-01-01T22:53:17.887Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2018-01-01T22:53:17.888Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2018-01-01T22:53:17.888Z"}
+{"level":"debug","message":"Loading middleware: rivescript.processIncomingMessages","timestamp":"2018-01-01T22:53:17.889Z"}
+{"level":"debug","message":"Loading middleware: conversations","timestamp":"2018-01-01T22:53:17.889Z"}
+{"level":"debug","message":"Loading middleware: apiai.incoming","timestamp":"2018-01-01T22:53:17.890Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2018-01-01T22:53:18.021Z"}
+{"level":"debug","message":"[rivescript] Restoring brain","timestamp":"2018-01-01T22:53:18.042Z"}
+{"message":"An error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#2200) Callback verification failed with the following errors: HTTP Status Code = 503; HTTP Message = Unavailable","stack":"Error: An error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#2200) Callback verification failed with the following errors: HTTP Status Code = 503; HTTP Message = Unavailable\n    at /Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/botpress-messenger/bin/webpack:/src/messenger.js:600:13\n    at PassThroughHandlerContext.finallyHandler (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/finally.js:56:23)\n    at PassThroughHandlerContext.tryCatcher (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/util.js:16:23)\n    at Promise._settlePromiseFromHandler (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:512:31)\n    at Promise._settlePromise (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:569:18)\n    at Promise._settlePromise0 (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:614:10)\n    at Promise._settlePromises (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:693:18)\n    at Async._drainQueue (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/async.js:133:16)\n    at Async._drainQueues (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/async.js:143:10)\n    at Immediate.Async.drainQueues [as _onImmediate] (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/async.js:17:14)\n    at runCallback (timers.js:773:18)\n    at tryOnImmediate (timers.js:734:5)\n    at processImmediate [as _immediateCallback] (timers.js:711:5)","level":"error","timestamp":"2018-01-01T22:53:19.158Z"}
+{"level":"error","message":"[notification::botpress-messenger] Error updating Messenger App. Please see logs for details.","timestamp":"2018-01-01T22:53:19.162Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-01-01T22:53:23.162Z"}
