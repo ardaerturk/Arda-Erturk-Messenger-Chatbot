@@ -80,6 +80,8 @@ module.exports = function(bp) {
   bp.middlewares.load()
   subscription(bp)
 
+
+
   bp.hear({
     type: 'message',
     text: 'merhaba'
