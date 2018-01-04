@@ -49,19 +49,19 @@ module.exports = {
        
        persistentMenuItems: [ 
          { type: 'postback',
-            title: '💪 Gym Motivation',
+            title: "⛄ Kanada'da Hayat 🏒",
             value: 'GET_VIDEO_GYM' },
           { type: 'postback',
-            title: '🔥 Work Motivation',
+            title: "🎓 Kanada'da egitim 🎒",
             value: 'GET_VIDEO_WORK' },
           { type: 'postback',
-            title: '😇 Life Motivation',
+            title: "❄ Kanada'da Gocmenlik 👳",
             value: 'GET_VIDEO_LIFE' },
           { type: 'postback',
-            title: '👉 Manage subscriptions',
+            title: '👉 Gunluk Video Uyeligi Ayarlari',
             value: 'MANAGE_SUBSCRIPTIONS' },
           { type: 'postback',
-            title: '⭐ This bot is Open-source',
+            title: '⭐ Bu bot acik kaynakli bir bottur.',
             value: 'OPEN_SOURCE' } 
         ],
 

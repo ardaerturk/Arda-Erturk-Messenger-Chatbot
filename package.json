@@ -1,7 +1,7 @@
 {
-  "name": "motivation-bot",
-  "version": "0.0.1",
-  "description": "Tutorial to show users how to build a chatbot easily.",
+  "name": "arda-erturk-youtube-bot",
+  "version": "0.1.1",
+  "description": "Kanada ile ilgili egitim, gocmenlik ve yasam ile ilgili hazirlamis oldugum videolari kullanicilarin sectigi kategori dogrultusunda sunar.",
   "main": "index.js",
   "dependencies": {
     "axios": "^0.15.3",
