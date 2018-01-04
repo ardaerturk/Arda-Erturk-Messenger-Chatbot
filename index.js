@@ -11,7 +11,7 @@ const TEXT_CATEGORIES = {
   ],
   LIFE: [
     "Anavataninizi birakmak kolay bir sey degil. Hayatinizda alacaginiz en buyuk risklerden biridir.",
-    "Kanada'nin vasifli, kalifiye elemana ihtiyaci var",
+    "Kanada'nin vasifli, kalifiye elemana ihtiyaci var!",
     "Kanada'nin resmi gocmenlik sitesini de ziyaret edebilirsiniz! www.canada.ca/en/services/immigration-citizenship.html !"
   ],
   GYM: [
@@ -45,7 +45,10 @@ const pickCategory = {
 const WELCOME_SENTENCES = [
   "Merhaba. Ben Arda'nin urettigi bir yapay zekayim. Bugun sana sorularinda ben yardimci olacagim! 👏",
   "Su anlik sadece butonlar uzerinden anlasabilecegiz. Sana hangi konularda yardimci olabilecegimi bu sekilde anlayacagim. Bu ikimiz icin de en kolayi olacak. 🤖",
-  "👉 Lutfen asagida bulunan butonlardan hanig konuda bilgi almak istedigini sec."
+  "Simdilik sınırlı butonlara sahibim ancak Arda gelistirmek icin elinden geleni yapiyor.",
+  //"Eger benim yardimci olamayacagim bir sorun olursa merak etme. Arda bu konusmalarimizi inceleyecek.",
+  "Benim degil de Arda'nin cevaplamasi gereken bir sorun varsa mesajinin basina 'sen cevaplama' yazarak sorabilirsin.",
+  "👉 Hazirsan lutfen asagida bulunan butonlardan hangi konuda bilgi almak istedigini sec."
 ]
 
 const WELCOME_TEXT_QUICK_REPLY = "Hemen bir kategori sec ve hemen sana bu konuyla ilgili bir video yollayayim!"
@@ -54,15 +57,15 @@ const DEFAULT_ANSWERS = event => [
   event.user.first_name + ", lutfen asagidaki menuden bir baslik sec. Henuz ne dedigini anlayamiyorum :)",
   "Eyvah! Kelimelerle aram pek iyi degil " + event.user.first_name + ". Asagidaki kategorilerden secim yapar misin?",
   "Benim tek anlayabildigim sey, asagidaki butonlar :-)",
-  event.user.first_name + " seni sevdim. Anlamama ragmen bana bir seyler yaziyorsun :s Asagidaki butonlari kullanirsan daha iyi anlasabilecegimizden hic suphem yok!",
+  event.user.first_name + " cok iyi anlasiyoruz degil mi? Anlamama ragmen bana bir seyler yaziyorsun :s Asagidaki butonlari kullanirsan daha iyi anlasabilecegimizden hic suphem yok!",
   "Anladigim kadariyla Arda'nin bana yeni ozellikler katmasi sart " + event.user.first_name + ", daha insanlarin ne dedigini anlayamiyorum. Ama emin ol, Arda gercekten cok yogun. Lutfen asagidaki butonlari kullan"
 ]
 
 const shareTemplate = {
   template_type: 'generic',
   elements: [{
-    title: "Asagidaki butona tiklamak hatinizi degistirebilir! Kanada'da neler oluyor?, Nasil geleblirim? gibi sorularinizin cevabi icin kanalima abone olabilirsiniz!",
-    item_url: 'https://m.me/boostfuel',
+    title: "Asagidaki butona tiklamak hayatinizi degistirebilir! Kanada'da neler oluyor?, Nasil gelebilirim? gibi sorularinizin cevabi icin kanalima abone olabilirsiniz!",
+    item_url: 'https://goo.gl/iTc9cY',
     image_url: 'https://fokushaber.com/wp-content/uploads/2017/11/Kanada-sohbet.jpg',
     buttons: [{
       type: 'web_url',
@@ -72,9 +75,9 @@ const shareTemplate = {
   }]
 }
 
-const SHARE_TEXT = "Senden hic bir karsilik beklemeden sana yardimci oluyorum. Senden rica etsem, Arda'nin kanalini buyutmesi icin yardimci olur musun? Asagidaki secenklerden arkadaslarinda paylasabilirsin.👇!"
+const SHARE_TEXT = "Senden hic bir karsilik beklemeden sana yardimci oluyorum. Senden rica etsem, Arda'nin kanalini buyutmesi icin yardimci olur musun? Asagidaki seceneklerden arkadaslarinla da paylasabilirsin.👇!"
 
-const OPEN_SOURCE_TEXT = "Bu bot acik-kaynakli bir bottur ve AGPL-3 lisansi ile korunmaktadir.\n⚡ Bu bot Botpress Platform'u uzerinden gelistirilmistir."
+const OPEN_SOURCE_TEXT = "Bu bot acik-kaynakli bir bottur ve AGPL-3 lisansi ile korunmaktadir.\n⚡ Bu bot Botpress Platform'u uzerinden Arda Erturk tarafindan gelistirilmistir."
 
 module.exports = function(bp) {
   bp.middlewares.load()
@@ -87,11 +90,51 @@ module.exports = function(bp) {
     const id = event.user.id
     const first_name = event.user.first_name
 
-    const text = 'Merhaba' + event.user.first_name
-    bp.messenger.sendText(id, text)
+    const text = 'Merhaba ' + event.user.first_name + ". Bugun hangi konuda fikir edinmek istersin?"
+    bp.messenger.sendText(id, text, { typing: true, waitDelivery: true })
   }
 
-    )
+
+  // if the user wants the admin to answer their question, then let them know.
+  // precondition; user needs to begin the message with "Sen cevaplama"
+  bp.hear({
+	type: 'message',
+	text: /^sen cevaplama/i
+  }, (event, next) => {
+	const id = event.user.id
+	const first_name = event.user.first_name
+
+	const text = 'Peki ' + event.user.first_name + ". Bu mesajini Arda en kisa surede inceleyecek. Yogunluktan dolayi kesin cevap verip veremeyecegini maalesef kestiremiyorum. Eger videolarinda cevabini bulamadiysan buyuk ihtimalle cevap verir. Yine de beni kaybetmedin. Sana bilgi vermeye devam edecegim."
+	bp.messenger.sendText(id, text, { typing: true, waitDelivery: true })
+  }
+
+
+  //TODO :
+  // ask user about the topic that they want to talk
+      bp.hear({
+      type: 'message',
+      text: /\D/
+    }, event => {
+      //const konu = event.text
+      event.konu = event.text
+      const id = event.user.id
+
+      event.konu = event.konu.toLowerCase()
+
+      if (event.konu.includes("iltica") || event.konu.includes("multeci") || event.konu.includes("siginma")) {
+        bp.messenger.sendText(id, "Maalesef bu konularda yardimci olamiyorum!", { typing: true, waitDelivery: true })
+    } else if (event.konu.includes("illegal")) {
+        bp.messenger.sendText(id, 'Sana tek onerim bu islere girmemen. Hayatini riske sokacak hic bir sey yapma!', { typing: true, waitDelivery: true })
+    } else if (event.konu.includes("birebir") || event.konu.includes("danismanlik")) {
+        bp.messenger.sendText(id, "Maalesef artik Arda birebir danismanlik ve gorusme icin vakit bulamiyor. Ben elimden geleni yapiyorum. Emin olabilirsin. Yine de icin rahatlasin diye soyluyorum, Arda bu konusmalarimizi inceleyecek. Onun cevaplamasi gereken bir sey olursa mutlaka gorur.", { typing: true, waitDelivery: true })
+    } else {
+    	bp.messenger.sendText(id, 'Lutfen asagidaki butonlardan secimini yaparak istedigin konuda bilgi edin! Izledikten sonra hala sorun olursa merak etme. Arda bu konusmalarimizi inceleyecek.', pickCategory)
+    }
+})
+      
+    })
+
+
 
   bp.hear({
     type: 'postback',
