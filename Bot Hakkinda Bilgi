@@ -1,9 +1,12 @@
-GENERAL INFORMATION AND PRIVACY POLICY
+GENERAL INFORMATION,TERMS AND PRIVACY POLICY
 
-- Arda-Erturk-Messenger-Chatbot Botpress platformu uzerinden uretilmis olup, motivation-bot adli chatbotun modifiye edilmis versiyonudur.
+Arda-Erturk-Messenger-Chatbot v 0.1.1
+
+- Arda-Erturk-Messenger-Chatbot, Botpress platformu uzerinden uretilmis olup, motivation-bot adli chatbotun modifiye edilmis versiyonudur.
 - Tamamen eglence ve bilgilendirme amaciyla uretilmis olup herhangi bir ticari amac gütmemektedir.
-- Bot ile yazismalar bot ureticisi tarafindan incelenebilir. Interaktif diyalog kuran kullanicinin baska birine veya kendine zarar, yasadisi konular icermesi uzerine hukuki islem baslatilabilir.
-- Botun soylediklerinden ureticisi sorumlu degildir. Irkci veya nefret soylemi iceren ifadeler kullanirsa ureticiyle iletisim kurun.
+- Botun soylediklerinden ureticisi sorumlu degildir. Irkci veya nefret soylemi iceren ifadeler kullanirsa veya kullanici herhangi bir acik bulursa hemen ureticiyle iletisim kurmalidir.
 - Botu kotuye kullanim, networku pasifize etmeye calismak gibi durumlarda uretici hukuki isleme basvurabilir.
 - Botun izinsiz kullanimi yasaktir. GNU Affero General Public License v3.0 tarafindan korunmaktadir.
-- 
+- Kullanimda olmasinda ragmen henuz beta asamasindadir. Iletisimde aksakliklar yasanabilir. Daha iyi bir deneyim sunmak ve botu gelistirebilmek icin kullanici ve bot arasindaki yazismalar uretici tarafindan incelenebilir. Interaktif diyalog kuran kullanicinin baska birine veya kendine zarar, yasadisi konular icermesi uzerine hukuki islem baslatilabilir.
+- Kullaniciya ozel bir deneyim sunabilmek icin, sayfa begenileriniz gibi standart bilgiler bot ile Facebook araciligiyla paylasilmaktadir. Bu bilgilerin hic bir sekilde 3. sahislarla paylasilmasi soz konusu degildir.
+
