@@ -2,7 +2,7 @@
 # This is regular YAML syntax. See http://docs.ansible.com/ansible/YAMLSyntax.html
 # You can override these settings with ENV variables. They are commented below.
 
- hostname: "arda-youtube-bot.herokuapp.com" # MESSENGER_HOST
+ MESSENGER_HOST: "arda-youtube-bot.herokuapp.com" # hostname
 
  applicationID: "626012380748827" # MESSENGER_APP_ID
  accessToken: "EAAI5Wt2UXBsBAEvySWTJagv6RRvvWDxwQ2vWRTjbZC4mPw9ZAVABUgwhL91EidtXXddditZC8RSTcvpvH4JMCK4yJUTQJadYDrl5iawwiN2U7ZBLSZAD36bIW240pguZCR03C4EocKgfToZBgG3p4jrKojhkHZB3Va4BZBHPJxP5tggZDZD" # MESSENGER_ACCESS_TOKEN
