@@ -4721,3 +4721,237 @@
 {"level":"debug","message":"[rivescript] Restoring brain","timestamp":"2018-01-05T02:20:56.363Z"}
 {"message":"Error setting persistent menu\nAn error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#105) param persistent_menu[0][call_to_actions] has too many elements.","stack":"Error: Error setting persistent menu\nAn error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#105) param persistent_menu[0][call_to_actions] has too many elements.\n    at /Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/botpress-messenger/bin/webpack:/src/messenger.js:482:13\n    at <anonymous>","level":"error","timestamp":"2018-01-05T02:20:58.379Z"}
 {"level":"error","message":"[notification::botpress-messenger] Error updating Messenger App. Please see logs for details.","timestamp":"2018-01-05T02:20:58.384Z"}
+{"level":"info","message":"Starting botpress version 0.2.4","timestamp":"2018-01-05T03:26:17.239Z"}
+{"level":"info","message":"Loaded botpress-analytics, version 2.2.7","timestamp":"2018-01-05T03:26:19.197Z"}
+{"level":"info","message":"Loaded botpress-api.ai, version 2.1.7","timestamp":"2018-01-05T03:26:19.207Z"}
+{"level":"info","message":"Loaded botpress-broadcast, version 2.0.11","timestamp":"2018-01-05T03:26:19.233Z"}
+{"level":"info","message":"Loaded botpress-dialog, version 1.0.17","timestamp":"2018-01-05T03:26:19.301Z"}
+{"level":"info","message":"Loaded botpress-messenger, version 2.2.9","timestamp":"2018-01-05T03:26:19.370Z"}
+{"level":"info","message":"Loaded botpress-rivescript, version 2.0.7","timestamp":"2018-01-05T03:26:19.565Z"}
+{"level":"info","message":"Loaded botpress-scheduler, version 2.0.9","timestamp":"2018-01-05T03:26:19.618Z"}
+{"level":"info","message":"Loaded botpress-subscription, version 2.0.7","timestamp":"2018-01-05T03:26:19.626Z"}
+{"level":"info","message":"Loaded botpress-terminal, version 1.0.2","timestamp":"2018-01-05T03:26:19.637Z"}
+{"level":"info","message":"Loaded botpress-webhook, version 1.0.1","timestamp":"2018-01-05T03:26:19.693Z"}
+{"level":"info","message":"Loaded 10 modules","timestamp":"2018-01-05T03:26:19.694Z"}
+{"level":"debug","message":"Loading middleware: analytics.incoming","timestamp":"2018-01-05T03:26:19.722Z"}
+{"level":"debug","message":"Loading middleware: analytics.outgoing","timestamp":"2018-01-05T03:26:19.723Z"}
+{"level":"debug","message":"SKIPPING middleware: dialog.outgoing.attach  [Reason=disabled]","timestamp":"2018-01-05T03:26:19.723Z"}
+{"level":"debug","message":"Loading middleware: dialog.incoming","timestamp":"2018-01-05T03:26:19.723Z"}
+{"level":"debug","message":"Loading middleware: dialog.outgoing","timestamp":"2018-01-05T03:26:19.723Z"}
+{"level":"debug","message":"Loading middleware: manage.subscriptions","timestamp":"2018-01-05T03:26:19.724Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2018-01-05T03:26:19.724Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2018-01-05T03:26:19.725Z"}
+{"level":"debug","message":"Loading middleware: rivescript.processIncomingMessages","timestamp":"2018-01-05T03:26:19.725Z"}
+{"level":"debug","message":"Loading middleware: conversations","timestamp":"2018-01-05T03:26:19.726Z"}
+{"level":"debug","message":"Loading middleware: apiai.incoming","timestamp":"2018-01-05T03:26:19.726Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2018-01-05T03:26:19.845Z"}
+{"level":"debug","message":"[rivescript] Restoring brain","timestamp":"2018-01-05T03:26:19.874Z"}
+{"message":"An error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#2200) Callback verification failed with the following errors: HTTP Status Code = 503; HTTP Message = Unavailable","stack":"Error: An error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#2200) Callback verification failed with the following errors: HTTP Status Code = 503; HTTP Message = Unavailable\n    at /Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/botpress-messenger/bin/webpack:/src/messenger.js:600:13\n    at PassThroughHandlerContext.finallyHandler (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/finally.js:56:23)\n    at PassThroughHandlerContext.tryCatcher (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/util.js:16:23)\n    at Promise._settlePromiseFromHandler (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:512:31)\n    at Promise._settlePromise (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:569:18)\n    at Promise._settlePromise0 (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:614:10)\n    at Promise._settlePromises (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/promise.js:693:18)\n    at Async._drainQueue (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/async.js:133:16)\n    at Async._drainQueues (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/async.js:143:10)\n    at Immediate.Async.drainQueues (/Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/bluebird/js/release/async.js:17:14)\n    at runCallback (timers.js:789:20)\n    at tryOnImmediate (timers.js:751:5)\n    at processImmediate [as _immediateCallback] (timers.js:722:5)","level":"error","timestamp":"2018-01-05T03:26:20.732Z"}
+{"level":"error","message":"[notification::botpress-messenger] Error updating Messenger App. Please see logs for details.","timestamp":"2018-01-05T03:26:20.737Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-01-05T03:26:24.976Z"}
+{"level":"info","message":"Starting botpress version 0.2.4","timestamp":"2018-01-05T03:27:39.321Z"}
+{"level":"info","message":"Loaded botpress-analytics, version 2.2.7","timestamp":"2018-01-05T03:27:41.065Z"}
+{"level":"info","message":"Loaded botpress-api.ai, version 2.1.7","timestamp":"2018-01-05T03:27:41.072Z"}
+{"level":"info","message":"Loaded botpress-broadcast, version 2.0.11","timestamp":"2018-01-05T03:27:41.081Z"}
+{"level":"info","message":"Loaded botpress-dialog, version 1.0.17","timestamp":"2018-01-05T03:27:41.110Z"}
+{"level":"info","message":"Loaded botpress-messenger, version 2.2.9","timestamp":"2018-01-05T03:27:41.156Z"}
+{"level":"info","message":"Loaded botpress-rivescript, version 2.0.7","timestamp":"2018-01-05T03:27:41.356Z"}
+{"level":"info","message":"Loaded botpress-scheduler, version 2.0.9","timestamp":"2018-01-05T03:27:41.391Z"}
+{"level":"info","message":"Loaded botpress-subscription, version 2.0.7","timestamp":"2018-01-05T03:27:41.400Z"}
+{"level":"info","message":"Loaded botpress-terminal, version 1.0.2","timestamp":"2018-01-05T03:27:41.412Z"}
+{"level":"info","message":"Loaded botpress-webhook, version 1.0.1","timestamp":"2018-01-05T03:27:41.460Z"}
+{"level":"info","message":"Loaded 10 modules","timestamp":"2018-01-05T03:27:41.460Z"}
+{"level":"debug","message":"Loading middleware: analytics.incoming","timestamp":"2018-01-05T03:27:41.482Z"}
+{"level":"debug","message":"Loading middleware: analytics.outgoing","timestamp":"2018-01-05T03:27:41.483Z"}
+{"level":"debug","message":"SKIPPING middleware: dialog.outgoing.attach  [Reason=disabled]","timestamp":"2018-01-05T03:27:41.483Z"}
+{"level":"debug","message":"Loading middleware: dialog.incoming","timestamp":"2018-01-05T03:27:41.483Z"}
+{"level":"debug","message":"Loading middleware: dialog.outgoing","timestamp":"2018-01-05T03:27:41.484Z"}
+{"level":"debug","message":"Loading middleware: manage.subscriptions","timestamp":"2018-01-05T03:27:41.484Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2018-01-05T03:27:41.485Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2018-01-05T03:27:41.485Z"}
+{"level":"debug","message":"Loading middleware: rivescript.processIncomingMessages","timestamp":"2018-01-05T03:27:41.486Z"}
+{"level":"debug","message":"Loading middleware: conversations","timestamp":"2018-01-05T03:27:41.486Z"}
+{"level":"debug","message":"Loading middleware: apiai.incoming","timestamp":"2018-01-05T03:27:41.487Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2018-01-05T03:27:41.606Z"}
+{"level":"debug","message":"[rivescript] Restoring brain","timestamp":"2018-01-05T03:27:41.636Z"}
+{"message":"Error setting persistent menu\nAn error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#105) param persistent_menu[0][call_to_actions] has too many elements.","stack":"Error: Error setting persistent menu\nAn error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#105) param persistent_menu[0][call_to_actions] has too many elements.\n    at /Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/botpress-messenger/bin/webpack:/src/messenger.js:482:13\n    at <anonymous>","level":"error","timestamp":"2018-01-05T03:27:43.565Z"}
+{"level":"error","message":"[notification::botpress-messenger] Error updating Messenger App. Please see logs for details.","timestamp":"2018-01-05T03:27:43.570Z"}
+{"level":"info","message":"Starting botpress version 0.2.4","timestamp":"2018-01-05T03:28:20.946Z"}
+{"level":"info","message":"Loaded botpress-analytics, version 2.2.7","timestamp":"2018-01-05T03:28:22.815Z"}
+{"level":"info","message":"Loaded botpress-api.ai, version 2.1.7","timestamp":"2018-01-05T03:28:22.824Z"}
+{"level":"info","message":"Loaded botpress-broadcast, version 2.0.11","timestamp":"2018-01-05T03:28:22.842Z"}
+{"level":"info","message":"Loaded botpress-dialog, version 1.0.17","timestamp":"2018-01-05T03:28:22.908Z"}
+{"level":"info","message":"Loaded botpress-messenger, version 2.2.9","timestamp":"2018-01-05T03:28:22.974Z"}
+{"level":"info","message":"Loaded botpress-rivescript, version 2.0.7","timestamp":"2018-01-05T03:28:23.169Z"}
+{"level":"info","message":"Loaded botpress-scheduler, version 2.0.9","timestamp":"2018-01-05T03:28:23.202Z"}
+{"level":"info","message":"Loaded botpress-subscription, version 2.0.7","timestamp":"2018-01-05T03:28:23.212Z"}
+{"level":"info","message":"Loaded botpress-terminal, version 1.0.2","timestamp":"2018-01-05T03:28:23.222Z"}
+{"level":"info","message":"Loaded botpress-webhook, version 1.0.1","timestamp":"2018-01-05T03:28:23.261Z"}
+{"level":"info","message":"Loaded 10 modules","timestamp":"2018-01-05T03:28:23.262Z"}
+{"level":"debug","message":"Loading middleware: analytics.incoming","timestamp":"2018-01-05T03:28:23.286Z"}
+{"level":"debug","message":"Loading middleware: analytics.outgoing","timestamp":"2018-01-05T03:28:23.287Z"}
+{"level":"debug","message":"SKIPPING middleware: dialog.outgoing.attach  [Reason=disabled]","timestamp":"2018-01-05T03:28:23.287Z"}
+{"level":"debug","message":"Loading middleware: dialog.incoming","timestamp":"2018-01-05T03:28:23.288Z"}
+{"level":"debug","message":"Loading middleware: dialog.outgoing","timestamp":"2018-01-05T03:28:23.289Z"}
+{"level":"debug","message":"Loading middleware: manage.subscriptions","timestamp":"2018-01-05T03:28:23.290Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2018-01-05T03:28:23.291Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2018-01-05T03:28:23.291Z"}
+{"level":"debug","message":"Loading middleware: rivescript.processIncomingMessages","timestamp":"2018-01-05T03:28:23.291Z"}
+{"level":"debug","message":"Loading middleware: conversations","timestamp":"2018-01-05T03:28:23.292Z"}
+{"level":"debug","message":"Loading middleware: apiai.incoming","timestamp":"2018-01-05T03:28:23.293Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2018-01-05T03:28:23.404Z"}
+{"level":"debug","message":"[rivescript] Restoring brain","timestamp":"2018-01-05T03:28:23.460Z"}
+{"message":"Error setting persistent menu\nAn error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#105) param persistent_menu[0][call_to_actions] has too many elements.","stack":"Error: Error setting persistent menu\nAn error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#105) param persistent_menu[0][call_to_actions] has too many elements.\n    at /Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/botpress-messenger/bin/webpack:/src/messenger.js:482:13\n    at <anonymous>","level":"error","timestamp":"2018-01-05T03:28:25.146Z"}
+{"level":"error","message":"[notification::botpress-messenger] Error updating Messenger App. Please see logs for details.","timestamp":"2018-01-05T03:28:25.151Z"}
+{"level":"info","message":"Starting botpress version 0.2.4","timestamp":"2018-01-05T03:29:37.206Z"}
+{"level":"info","message":"Loaded botpress-analytics, version 2.2.7","timestamp":"2018-01-05T03:29:39.215Z"}
+{"level":"info","message":"Loaded botpress-api.ai, version 2.1.7","timestamp":"2018-01-05T03:29:39.222Z"}
+{"level":"info","message":"Loaded botpress-broadcast, version 2.0.11","timestamp":"2018-01-05T03:29:39.232Z"}
+{"level":"info","message":"Loaded botpress-dialog, version 1.0.17","timestamp":"2018-01-05T03:29:39.262Z"}
+{"level":"info","message":"Loaded botpress-messenger, version 2.2.9","timestamp":"2018-01-05T03:29:39.300Z"}
+{"level":"info","message":"Loaded botpress-rivescript, version 2.0.7","timestamp":"2018-01-05T03:29:39.548Z"}
+{"level":"info","message":"Loaded botpress-scheduler, version 2.0.9","timestamp":"2018-01-05T03:29:39.620Z"}
+{"level":"info","message":"Loaded botpress-subscription, version 2.0.7","timestamp":"2018-01-05T03:29:39.633Z"}
+{"level":"info","message":"Loaded botpress-terminal, version 1.0.2","timestamp":"2018-01-05T03:29:39.645Z"}
+{"level":"info","message":"Loaded botpress-webhook, version 1.0.1","timestamp":"2018-01-05T03:29:39.698Z"}
+{"level":"info","message":"Loaded 10 modules","timestamp":"2018-01-05T03:29:39.698Z"}
+{"level":"debug","message":"Loading middleware: analytics.incoming","timestamp":"2018-01-05T03:29:39.724Z"}
+{"level":"debug","message":"Loading middleware: analytics.outgoing","timestamp":"2018-01-05T03:29:39.724Z"}
+{"level":"debug","message":"SKIPPING middleware: dialog.outgoing.attach  [Reason=disabled]","timestamp":"2018-01-05T03:29:39.725Z"}
+{"level":"debug","message":"Loading middleware: dialog.incoming","timestamp":"2018-01-05T03:29:39.725Z"}
+{"level":"debug","message":"Loading middleware: dialog.outgoing","timestamp":"2018-01-05T03:29:39.726Z"}
+{"level":"debug","message":"Loading middleware: manage.subscriptions","timestamp":"2018-01-05T03:29:39.726Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2018-01-05T03:29:39.727Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2018-01-05T03:29:39.727Z"}
+{"level":"debug","message":"Loading middleware: rivescript.processIncomingMessages","timestamp":"2018-01-05T03:29:39.728Z"}
+{"level":"debug","message":"Loading middleware: conversations","timestamp":"2018-01-05T03:29:39.728Z"}
+{"level":"debug","message":"Loading middleware: apiai.incoming","timestamp":"2018-01-05T03:29:39.729Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2018-01-05T03:29:39.857Z"}
+{"level":"debug","message":"[rivescript] Restoring brain","timestamp":"2018-01-05T03:29:39.894Z"}
+{"message":"Error setting persistent menu\nAn error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#105) param persistent_menu[0][call_to_actions] has too many elements.","stack":"Error: Error setting persistent menu\nAn error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#105) param persistent_menu[0][call_to_actions] has too many elements.\n    at /Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/botpress-messenger/bin/webpack:/src/messenger.js:482:13\n    at <anonymous>","level":"error","timestamp":"2018-01-05T03:29:42.169Z"}
+{"level":"error","message":"[notification::botpress-messenger] Error updating Messenger App. Please see logs for details.","timestamp":"2018-01-05T03:29:42.172Z"}
+{"level":"info","message":"Starting botpress version 0.2.4","timestamp":"2018-01-05T03:31:12.101Z"}
+{"level":"info","message":"Loaded botpress-analytics, version 2.2.7","timestamp":"2018-01-05T03:31:14.028Z"}
+{"level":"info","message":"Loaded botpress-api.ai, version 2.1.7","timestamp":"2018-01-05T03:31:14.036Z"}
+{"level":"info","message":"Loaded botpress-broadcast, version 2.0.11","timestamp":"2018-01-05T03:31:14.053Z"}
+{"level":"info","message":"Loaded botpress-dialog, version 1.0.17","timestamp":"2018-01-05T03:31:14.155Z"}
+{"level":"info","message":"Loaded botpress-messenger, version 2.2.9","timestamp":"2018-01-05T03:31:14.232Z"}
+{"level":"info","message":"Loaded botpress-rivescript, version 2.0.7","timestamp":"2018-01-05T03:31:14.449Z"}
+{"level":"info","message":"Loaded botpress-scheduler, version 2.0.9","timestamp":"2018-01-05T03:31:14.493Z"}
+{"level":"info","message":"Loaded botpress-subscription, version 2.0.7","timestamp":"2018-01-05T03:31:14.501Z"}
+{"level":"info","message":"Loaded botpress-terminal, version 1.0.2","timestamp":"2018-01-05T03:31:14.511Z"}
+{"level":"info","message":"Loaded botpress-webhook, version 1.0.1","timestamp":"2018-01-05T03:31:14.559Z"}
+{"level":"info","message":"Loaded 10 modules","timestamp":"2018-01-05T03:31:14.559Z"}
+{"level":"debug","message":"Loading middleware: analytics.incoming","timestamp":"2018-01-05T03:31:14.585Z"}
+{"level":"debug","message":"Loading middleware: analytics.outgoing","timestamp":"2018-01-05T03:31:14.585Z"}
+{"level":"debug","message":"SKIPPING middleware: dialog.outgoing.attach  [Reason=disabled]","timestamp":"2018-01-05T03:31:14.585Z"}
+{"level":"debug","message":"Loading middleware: dialog.incoming","timestamp":"2018-01-05T03:31:14.586Z"}
+{"level":"debug","message":"Loading middleware: dialog.outgoing","timestamp":"2018-01-05T03:31:14.586Z"}
+{"level":"debug","message":"Loading middleware: manage.subscriptions","timestamp":"2018-01-05T03:31:14.586Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2018-01-05T03:31:14.587Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2018-01-05T03:31:14.587Z"}
+{"level":"debug","message":"Loading middleware: rivescript.processIncomingMessages","timestamp":"2018-01-05T03:31:14.588Z"}
+{"level":"debug","message":"Loading middleware: conversations","timestamp":"2018-01-05T03:31:14.588Z"}
+{"level":"debug","message":"Loading middleware: apiai.incoming","timestamp":"2018-01-05T03:31:14.589Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2018-01-05T03:31:14.712Z"}
+{"level":"debug","message":"[rivescript] Restoring brain","timestamp":"2018-01-05T03:31:14.738Z"}
+{"message":"Error setting persistent menu\nAn error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#105) param persistent_menu[0][call_to_actions] has too many elements.","stack":"Error: Error setting persistent menu\nAn error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#105) param persistent_menu[0][call_to_actions] has too many elements.\n    at /Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/botpress-messenger/bin/webpack:/src/messenger.js:482:13\n    at <anonymous>","level":"error","timestamp":"2018-01-05T03:31:16.650Z"}
+{"level":"error","message":"[notification::botpress-messenger] Error updating Messenger App. Please see logs for details.","timestamp":"2018-01-05T03:31:16.655Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-01-05T03:31:29.847Z"}
+{"level":"info","message":"Starting botpress version 0.2.4","timestamp":"2018-01-05T03:31:59.570Z"}
+{"level":"info","message":"Loaded botpress-analytics, version 2.2.7","timestamp":"2018-01-05T03:32:01.496Z"}
+{"level":"info","message":"Loaded botpress-api.ai, version 2.1.7","timestamp":"2018-01-05T03:32:01.503Z"}
+{"level":"info","message":"Loaded botpress-broadcast, version 2.0.11","timestamp":"2018-01-05T03:32:01.522Z"}
+{"level":"info","message":"Loaded botpress-dialog, version 1.0.17","timestamp":"2018-01-05T03:32:01.597Z"}
+{"level":"info","message":"Loaded botpress-messenger, version 2.2.9","timestamp":"2018-01-05T03:32:01.676Z"}
+{"level":"info","message":"Loaded botpress-rivescript, version 2.0.7","timestamp":"2018-01-05T03:32:01.778Z"}
+{"level":"info","message":"Loaded botpress-scheduler, version 2.0.9","timestamp":"2018-01-05T03:32:01.818Z"}
+{"level":"info","message":"Loaded botpress-subscription, version 2.0.7","timestamp":"2018-01-05T03:32:01.828Z"}
+{"level":"info","message":"Loaded botpress-terminal, version 1.0.2","timestamp":"2018-01-05T03:32:01.838Z"}
+{"level":"info","message":"Loaded botpress-webhook, version 1.0.1","timestamp":"2018-01-05T03:32:01.882Z"}
+{"level":"info","message":"Loaded 10 modules","timestamp":"2018-01-05T03:32:01.882Z"}
+{"level":"debug","message":"Loading middleware: analytics.incoming","timestamp":"2018-01-05T03:32:01.906Z"}
+{"level":"debug","message":"Loading middleware: analytics.outgoing","timestamp":"2018-01-05T03:32:01.906Z"}
+{"level":"debug","message":"SKIPPING middleware: dialog.outgoing.attach  [Reason=disabled]","timestamp":"2018-01-05T03:32:01.906Z"}
+{"level":"debug","message":"Loading middleware: dialog.incoming","timestamp":"2018-01-05T03:32:01.907Z"}
+{"level":"debug","message":"Loading middleware: dialog.outgoing","timestamp":"2018-01-05T03:32:01.907Z"}
+{"level":"debug","message":"Loading middleware: manage.subscriptions","timestamp":"2018-01-05T03:32:01.907Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2018-01-05T03:32:01.908Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2018-01-05T03:32:01.908Z"}
+{"level":"debug","message":"Loading middleware: rivescript.processIncomingMessages","timestamp":"2018-01-05T03:32:01.908Z"}
+{"level":"debug","message":"Loading middleware: conversations","timestamp":"2018-01-05T03:32:01.909Z"}
+{"level":"debug","message":"Loading middleware: apiai.incoming","timestamp":"2018-01-05T03:32:01.909Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2018-01-05T03:32:02.018Z"}
+{"level":"debug","message":"[rivescript] Restoring brain","timestamp":"2018-01-05T03:32:02.040Z"}
+{"message":"Error setting persistent menu\nAn error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#105) param persistent_menu[0][call_to_actions] has too many elements.","stack":"Error: Error setting persistent menu\nAn error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#105) param persistent_menu[0][call_to_actions] has too many elements.\n    at /Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/botpress-messenger/bin/webpack:/src/messenger.js:482:13\n    at <anonymous>","level":"error","timestamp":"2018-01-05T03:32:04.066Z"}
+{"level":"error","message":"[notification::botpress-messenger] Error updating Messenger App. Please see logs for details.","timestamp":"2018-01-05T03:32:04.070Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-05T03:32:21.531Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-05T03:32:21.540Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-05T03:32:21.963Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-05T03:32:21.964Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-05T03:32:22.222Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-05T03:32:22.224Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-05T03:32:22.229Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-05T03:32:22.625Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-05T03:32:22.962Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-05T03:32:22.966Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-05T03:32:22.975Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-05T03:32:22.976Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-05T03:32:23.086Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-05T03:32:23.092Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-05T03:32:23.897Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-05T03:32:23.899Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-05T03:32:23.907Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-05T03:32:23.908Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-05T03:32:24.245Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-05T03:32:24.435Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-05T03:32:24.536Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-05T03:32:24.537Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-05T03:32:24.681Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-05T03:32:24.682Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-05T03:32:24.845Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-05T03:32:25.111Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-05T03:32:27.703Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-05T03:32:28.151Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-05T03:32:28.396Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-05T03:32:28.526Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-05T03:32:28.836Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-05T03:32:28.877Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-05T03:32:56.874Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-05T03:33:07.106Z"}
+{"level":"verbose","message":"[botpress-dialog] Outgoing message","timestamp":"2018-01-05T03:33:07.109Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-05T03:33:07.116Z"}
+{"level":"debug","message":"[botpress-dialog] Error: getaddrinfo ENOTFOUND api.dialoganalytics.com api.dialoganalytics.com:443","timestamp":"2018-01-05T03:33:07.117Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-05T03:33:11.076Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-05T03:33:11.419Z"}
+{"level":"verbose","message":"[botpress-dialog] Incoming message","timestamp":"2018-01-05T03:33:11.745Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-01-05T03:36:32.351Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-01-05T03:41:37.471Z"}
+{"level":"info","message":"Starting botpress version 0.2.4","timestamp":"2018-01-05T03:46:23.375Z"}
+{"level":"info","message":"Loaded botpress-analytics, version 2.2.7","timestamp":"2018-01-05T03:46:25.343Z"}
+{"level":"info","message":"Loaded botpress-api.ai, version 2.1.7","timestamp":"2018-01-05T03:46:25.351Z"}
+{"level":"info","message":"Loaded botpress-broadcast, version 2.0.11","timestamp":"2018-01-05T03:46:25.365Z"}
+{"level":"info","message":"Loaded botpress-dialog, version 1.0.17","timestamp":"2018-01-05T03:46:25.425Z"}
+{"level":"info","message":"Loaded botpress-messenger, version 2.2.9","timestamp":"2018-01-05T03:46:25.549Z"}
+{"level":"info","message":"Loaded botpress-rivescript, version 2.0.7","timestamp":"2018-01-05T03:46:25.830Z"}
+{"level":"info","message":"Loaded botpress-scheduler, version 2.0.9","timestamp":"2018-01-05T03:46:25.896Z"}
+{"level":"info","message":"Loaded botpress-subscription, version 2.0.7","timestamp":"2018-01-05T03:46:25.912Z"}
+{"level":"info","message":"Loaded botpress-terminal, version 1.0.2","timestamp":"2018-01-05T03:46:25.926Z"}
+{"level":"info","message":"Loaded botpress-webhook, version 1.0.1","timestamp":"2018-01-05T03:46:26.014Z"}
+{"level":"info","message":"Loaded 10 modules","timestamp":"2018-01-05T03:46:26.015Z"}
+{"level":"debug","message":"Loading middleware: analytics.incoming","timestamp":"2018-01-05T03:46:26.047Z"}
+{"level":"debug","message":"Loading middleware: analytics.outgoing","timestamp":"2018-01-05T03:46:26.048Z"}
+{"level":"debug","message":"SKIPPING middleware: dialog.outgoing.attach  [Reason=disabled]","timestamp":"2018-01-05T03:46:26.048Z"}
+{"level":"debug","message":"Loading middleware: dialog.incoming","timestamp":"2018-01-05T03:46:26.049Z"}
+{"level":"debug","message":"Loading middleware: dialog.outgoing","timestamp":"2018-01-05T03:46:26.049Z"}
+{"level":"debug","message":"Loading middleware: manage.subscriptions","timestamp":"2018-01-05T03:46:26.050Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2018-01-05T03:46:26.051Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2018-01-05T03:46:26.051Z"}
+{"level":"debug","message":"Loading middleware: rivescript.processIncomingMessages","timestamp":"2018-01-05T03:46:26.052Z"}
+{"level":"debug","message":"Loading middleware: conversations","timestamp":"2018-01-05T03:46:26.057Z"}
+{"level":"debug","message":"Loading middleware: apiai.incoming","timestamp":"2018-01-05T03:46:26.061Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2018-01-05T03:46:26.212Z"}
+{"level":"debug","message":"[rivescript] Restoring brain","timestamp":"2018-01-05T03:46:26.266Z"}
+{"message":"Error setting persistent menu\nAn error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#105) param persistent_menu[0][call_to_actions] has too many elements.","stack":"Error: Error setting persistent menu\nAn error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#105) param persistent_menu[0][call_to_actions] has too many elements.\n    at /Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/botpress-messenger/bin/webpack:/src/messenger.js:482:13\n    at <anonymous>","level":"error","timestamp":"2018-01-05T03:46:29.497Z"}
+{"level":"error","message":"[notification::botpress-messenger] Error updating Messenger App. Please see logs for details.","timestamp":"2018-01-05T03:46:29.506Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-01-05T03:46:41.414Z"}

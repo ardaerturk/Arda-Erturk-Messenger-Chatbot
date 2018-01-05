@@ -17,8 +17,11 @@
     "botpress-subscription": "^2.0.5",
     "botpress-terminal": "^1.0.2",
     "botpress-webhook": "^1.0.1",
+    "foobar": "^1.1.0",
     "lodash": "^4.17.4",
-    "moment": "^2.17.1"
+    "moment": "^2.17.1",
+    "node-sass": "^4.7.2",
+    "true-case-path": "^1.0.2"
   },
   "engines": {
     "node": ">= 8.0"
