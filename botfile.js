@@ -9,7 +9,7 @@ module.exports = {
     //port: process.env.PG_PORT || 5432,
     user: process.env.PG_USER || 'ardaerturk',
     password: process.env.PG_PASSWORD || 'password',
-    database: process.env.PG_DB || ''
+    database: process.env.PG_DB || 'postgres://imkvnhosgyeejf:739086672c97f3db0e6e0c263c5b6cd77b1e2c0c509464557778cfb10a9a2e9e@ec2-54-227-250-33.compute-1.amazonaws.com:5432/dc5uv49ppiffj8'
   },
 
   /**
