@@ -5,7 +5,7 @@ module.exports = {
   */
   postgres: {
     enabled: process.env.DATABASE === 'postgres',
-    host: process.env.PG_HOST || 'arda-youtube-bot.herokuapp.com',
+    host: process.env.PG_HOST || 'ec2-54-227-250-33.compute-1.amazonaws.com',
     port: process.env.PG_PORT || 5432,
     user: process.env.PG_USER || 'imkvnhosgyeejf',
     password: process.env.PG_PASSWORD || '739086672c97f3db0e6e0c263c5b6cd77b1e2c0c509464557778cfb10a9a2e9e',
