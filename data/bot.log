@@ -4955,3 +4955,32 @@
 {"message":"Error setting persistent menu\nAn error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#105) param persistent_menu[0][call_to_actions] has too many elements.","stack":"Error: Error setting persistent menu\nAn error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#105) param persistent_menu[0][call_to_actions] has too many elements.\n    at /Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/botpress-messenger/bin/webpack:/src/messenger.js:482:13\n    at <anonymous>","level":"error","timestamp":"2018-01-05T03:46:29.497Z"}
 {"level":"error","message":"[notification::botpress-messenger] Error updating Messenger App. Please see logs for details.","timestamp":"2018-01-05T03:46:29.506Z"}
 {"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-01-05T03:46:41.414Z"}
+{"level":"info","message":"Starting botpress version 0.2.4","timestamp":"2018-01-05T23:41:13.358Z"}
+{"level":"info","message":"Loaded botpress-analytics, version 2.2.7","timestamp":"2018-01-05T23:41:15.214Z"}
+{"level":"info","message":"Loaded botpress-api.ai, version 2.1.7","timestamp":"2018-01-05T23:41:15.220Z"}
+{"level":"info","message":"Loaded botpress-broadcast, version 2.0.11","timestamp":"2018-01-05T23:41:15.234Z"}
+{"level":"info","message":"Loaded botpress-dialog, version 1.0.17","timestamp":"2018-01-05T23:41:15.295Z"}
+{"level":"info","message":"Loaded botpress-messenger, version 2.2.9","timestamp":"2018-01-05T23:41:15.366Z"}
+{"level":"info","message":"Loaded botpress-rivescript, version 2.0.7","timestamp":"2018-01-05T23:41:15.496Z"}
+{"level":"info","message":"Loaded botpress-scheduler, version 2.0.9","timestamp":"2018-01-05T23:41:15.537Z"}
+{"level":"info","message":"Loaded botpress-subscription, version 2.0.7","timestamp":"2018-01-05T23:41:15.545Z"}
+{"level":"info","message":"Loaded botpress-terminal, version 1.0.2","timestamp":"2018-01-05T23:41:15.557Z"}
+{"level":"info","message":"Loaded botpress-webhook, version 1.0.1","timestamp":"2018-01-05T23:41:15.597Z"}
+{"level":"info","message":"Loaded 10 modules","timestamp":"2018-01-05T23:41:15.597Z"}
+{"level":"debug","message":"Loading middleware: analytics.incoming","timestamp":"2018-01-05T23:41:15.619Z"}
+{"level":"debug","message":"Loading middleware: analytics.outgoing","timestamp":"2018-01-05T23:41:15.619Z"}
+{"level":"debug","message":"SKIPPING middleware: dialog.outgoing.attach  [Reason=disabled]","timestamp":"2018-01-05T23:41:15.619Z"}
+{"level":"debug","message":"Loading middleware: dialog.incoming","timestamp":"2018-01-05T23:41:15.620Z"}
+{"level":"debug","message":"Loading middleware: dialog.outgoing","timestamp":"2018-01-05T23:41:15.620Z"}
+{"level":"debug","message":"Loading middleware: manage.subscriptions","timestamp":"2018-01-05T23:41:15.620Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2018-01-05T23:41:15.621Z"}
+{"level":"debug","message":"Loading middleware: messenger.sendMessages","timestamp":"2018-01-05T23:41:15.621Z"}
+{"level":"debug","message":"Loading middleware: rivescript.processIncomingMessages","timestamp":"2018-01-05T23:41:15.621Z"}
+{"level":"debug","message":"Loading middleware: conversations","timestamp":"2018-01-05T23:41:15.622Z"}
+{"level":"debug","message":"Loading middleware: apiai.incoming","timestamp":"2018-01-05T23:41:15.622Z"}
+{"level":"info","message":"\u001b[32m\u001b[1mBot launched. Visit: http://localhost:3000\u001b[22m\u001b[39m","timestamp":"2018-01-05T23:41:15.743Z"}
+{"level":"debug","message":"[rivescript] Restoring brain","timestamp":"2018-01-05T23:41:15.768Z"}
+{"message":"Error setting persistent menu\nAn error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#105) param persistent_menu[0][call_to_actions] has too many elements.","stack":"Error: Error setting persistent menu\nAn error has been returned by Facebook API.\nStatus: 400 (Bad Request)\n(#105) param persistent_menu[0][call_to_actions] has too many elements.\n    at /Users/ardaerturk/Desktop/Bot Sample/Boost-master/node_modules/botpress-messenger/bin/webpack:/src/messenger.js:485:12\n    at <anonymous>","level":"error","timestamp":"2018-01-05T23:41:17.648Z"}
+{"level":"error","message":"[notification::botpress-messenger] Error updating Messenger App. Please see logs for details.","timestamp":"2018-01-05T23:41:17.653Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-01-05T23:41:20.958Z"}
+{"level":"debug","message":"botpress-analytics: recompiling analytics","timestamp":"2018-01-05T23:46:26.071Z"}
