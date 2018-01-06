@@ -48,11 +48,11 @@ const WELCOME_SENTENCES = [
   //"Simdilik sınırlı butonlara sahibim ancak Arda gelistirmek icin elinden geleni yapiyor.",
   "Simdilik kisitli ozelliklere sahibim. Ama daha iyi bir kullanici deneyimi yasabilmemiz icin cok ugrasiliyor.",
   //"Eger benim yardimci olamayacagim bir sorun olursa merak etme. Arda bu konusmalarimizi inceleyecek.",
-  "Benim degil de Arda'nin cevaplamasi gereken bir sorun varsa mesajinin basina 'sen cevaplama' yazarak sorabilirsin.",
-  "👉 Hazirsan lutfen asagida bulunan butonlardan hangi konuda bilgi almak istedigini sec."
+  "Benim degil de Arda'nin cevaplamasi gereken bir sorun varsa mesajinin basina 'sen cevaplama' yazarak sorabilirsin."
+  //"👉 Hazirsan lutfen asagida bulunan butonlardan hangi konuda bilgi almak istedigini sec."
 ]
 
-//const WELCOME_TEXT_QUICK_REPLY = "Hemen bir kategori sec ve hemen sana bu konuyla ilgili bir video yollayayim!"
+const WELCOME_TEXT_QUICK_REPLY = "Hemen bir kategori sec ve hemen sana bu konuyla ilgili bir video yollayayim!"
 
 const DEFAULT_ANSWERS = event => [
   event.user.first_name + ", lutfen asagidaki menuden bir baslik sec. Henuz ne dedigini anlayamiyorum :)",
