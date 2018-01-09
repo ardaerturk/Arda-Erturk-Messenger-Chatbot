@@ -125,7 +125,7 @@ module.exports = function(bp) {
 
       event.konu = event.konu.toLowerCase()
 
-      if (event.konu.includes("iltica") || event.konu.includes("multeci") || event.konu.includes("siginma")) {
+      if (konu.includes("iltica") || event.konu.includes("multeci") || event.konu.includes("siginma")) {
         bp.messenger.sendText(id, "Maalesef bu konularda yardimci olamiyorum!", { typing: true, waitDelivery: true })
     } else if (event.konu.includes("illegal")) {
         bp.messenger.sendText(id, 'Sana tek onerim bu islere girmemen. Hayatini riske sokacak hic bir sey yapma!', { typing: true, waitDelivery: true })
