@@ -140,7 +140,7 @@ module.exports = function(bp) {
       
 
 
-
+// for english messenger
   bp.hear({
     type: 'postback',
     text: 'GET_STARTED' 
@@ -160,6 +160,28 @@ module.exports = function(bp) {
   bp.hear(/TRIGGER_DAILY/i, (event, next) => {
     bp.sendDailyVideo(event.user.id)
   })
+
+// for turkish messenger
+  bp.hear({
+    type: 'postback',
+    text: 'BASLA' 
+  }, (event, next) => {
+    const { first_name, last_name } = event.user
+    bp.logger.info('New user:', first_name, last_name)
+
+    bp.subscription.subscribe(event.user.id, 'daily')
+
+    return Promise.mapSeries(WELCOME_SENTENCES, txt => {
+      return bp.messenger.sendText(event.user.id, txt, { typing: true, waitDelivery: true })
+      .then(Promise.delay(250))
+    })
+    .then(() => bp.messenger.sendText(event.user.id, WELCOME_TEXT_QUICK_REPLY, pickCategory))
+  })
+
+  bp.hear(/TRIGGER_DAILY/i, (event, next) => {
+    bp.sendDailyVideo(event.user.id)
+  })
+
 
   bp.hear({
     type: 'postback',
