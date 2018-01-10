@@ -115,6 +115,8 @@ module.exports = function(bp) {
 
   //TODO :
   // ask user about the topic that they want to talk
+
+  //MAIN HEARING FUNCTION
       bp.hear({
       type: 'message',
       text: /\D/
@@ -122,15 +124,29 @@ module.exports = function(bp) {
       //const konu = event.text
       event.konu = event.text
       const id = event.user.id
-
+      const first_name = event.user.first_name
       event.konu = event.konu.toLowerCase()
 
-      if (konu.includes("iltica") || event.konu.includes("multeci") || event.konu.includes("siginma")) {
+      //Convert Characters
+      event.konu = event.konu.replace(/ö/g, 'o');
+      event.konu = event.konu.replace(/ç/g, 'c');
+      event.konu = event.konu.replace(/ş/g, 's');
+      event.konu = event.konu.replace(/ı/g, 'i');
+      event.konu = event.konu.replace(/ğ/g, 'g');
+      event.konu = event.konu.replace(/ü/g, 'u');  
+
+      if (event.konu.includes("iltica") || event.konu.includes("multeci") || event.konu.includes("siginma")) {
         bp.messenger.sendText(id, "Maalesef bu konularda yardimci olamiyorum!", { typing: true, waitDelivery: true })
     } else if (event.konu.includes("illegal")) {
         bp.messenger.sendText(id, 'Sana tek onerim bu islere girmemen. Hayatini riske sokacak hic bir sey yapma!', { typing: true, waitDelivery: true })
     } else if (event.konu.includes("birebir") || event.konu.includes("danismanlik")) {
         bp.messenger.sendText(id, "Maalesef artik Arda birebir danismanlik ve gorusme icin vakit bulamiyor. Ben elimden geleni yapiyorum. Emin olabilirsin. Yine de icin rahatlasin diye soyluyorum, Arda bu konusmalarimizi inceleyecek. Onun cevaplamasi gereken bir sey olursa mutlaka gorur.", { typing: true, waitDelivery: true })
+    } else if (event.konu.includes("basarilar") || event.konu.includes("tebrikler")) {
+        bp.messenger.sendText(id, "Guzel dileklerin icin cok tesekkur ederim. Sana da basarilar diliyor.", { typing: true, waitDelivery: true })
+    } else if (event.konu.includes(("merhaba") || event.konu.includes("salam") || event.konu.includes("meraba") || event.konu.includes("selamun")  || event.konu.includes("selam") || event.konu.includes("maraba")) &&  (event.konu < 13) ) {
+        bp.messenger.sendText(id, 'Merhaba ' + event.user.first_name + ". Bugun hangi konuda fikir edinmek istersin?", { typing: true, waitDelivery: true })
+    //} else if (event.konu.includes("merhaba") || event.konu.includes("danismanlik")) {
+        //bp.messenger.sendText(id, "Maalesef artik Arda birebir danismanlik ve gorusme icin vakit bulamiyor. Ben elimden geleni yapiyorum. Emin olabilirsin. Yine de icin rahatlasin diye soyluyorum, Arda bu konusmalarimizi inceleyecek. Onun cevaplamasi gereken bir sey olursa mutlaka gorur.", { typing: true, waitDelivery: true })
     } else {
         const text = _.sample(DEFAULT_ANSWERS(event))
           return bp.messenger.sendText(event.user.id, text, pickCategory)
