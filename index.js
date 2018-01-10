@@ -153,6 +153,23 @@ module.exports = function(bp) {
     	//bp.messenger.sendText(id, 'Lutfen asagidaki butonlardan secimini yaparak istedigin konuda bilgi edin! Izledikten sonra hala sorun olursa merak etme. Arda bu konusmalarimizi inceleyecek.', pickCategory)
     }
 })
+
+
+//rate the bot. Asked by human. Rate answer is answered by bot.
+
+
+bp.hear({
+      type: 'message',
+      text: /^[-+]?\d+/
+    }, (event, next) => {
+      //const konu = event.text
+      event.konu = event.text
+      const id = event.user.id
+      const first_name = event.user.first_name
+
+
+      bp.messenger.sendText(id, "Puanin icin tesekkurler! Bu puanlar gelismem icin cok onemli.", { typing: true, waitDelivery: true })
+})
       
 
 
