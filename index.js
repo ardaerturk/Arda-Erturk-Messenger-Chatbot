@@ -144,7 +144,7 @@ module.exports = function(bp) {
     } else if (event.konu.includes("basarilar") || event.konu.includes("tebrikler") || event.konu.includes("tesekkur") || event.konu.includes("tesekkurler")) {
         bp.messenger.sendText(id, "Guzel dileklerin icin cok tesekkur ederim. Sana da basarilar diliyorum.", { typing: true, waitDelivery: true })
     } else if (event.konu.includes("nasilsin") || event.konu.includes("naber")) {
-        bp.messenger.sendText(id, "Iyiyim, tesekkurler " + event.user.first_name ". Sen nasilsin?", { typing: true, waitDelivery: true })
+        bp.messenger.sendText(id, "Iyiyim, tesekkurler " + event.user.first_name + ". Sen nasilsin?", { typing: true, waitDelivery: true })
     } else if (event.konu == "." || event.konu.includes("iyi")) {
         bp.messenger.sendText(id, "👍", { typing: true, waitDelivery: true })
     } else if ((event.konu.includes("merhaba") || event.konu.includes("salam") || event.konu.includes("meraba") || event.konu.includes("selamun")  || event.konu.includes("selam") || event.konu.includes("maraba")) &&  (event.konu.length < 13)) {
