@@ -143,7 +143,7 @@ module.exports = function(bp) {
         bp.messenger.sendText(id, "Maalesef artik Arda birebir danismanlik ve gorusme icin vakit bulamiyor. Ben elimden geleni yapiyorum. Emin olabilirsin. Yine de icin rahatlasin diye soyluyorum, Arda bu konusmalarimizi inceleyecek. Onun cevaplamasi gereken bir sey olursa mutlaka gorur.", { typing: true, waitDelivery: true })
     } else if (event.konu.includes("basarilar") || event.konu.includes("tebrikler") || event.konu.includes("tesekkur") || event.konu.includes("tesekkurler")) {
         bp.messenger.sendText(id, "Guzel dileklerin icin cok tesekkur ederim. Sana da basarilar diliyorum.", { typing: true, waitDelivery: true })
-    } else if (event.konu.includes(("merhaba") || event.konu.includes("salam") || event.konu.includes("meraba") || event.konu.includes("selamun")  || event.konu.includes("selam") || event.konu.includes("maraba")) &&  (event.konu < 13) ) {
+    } else if ((event.konu.includes("merhaba") || event.konu.includes("salam") || event.konu.includes("meraba") || event.konu.includes("selamun")  || event.konu.includes("selam") || event.konu.includes("maraba")) &&  (event.konu < 13)) {
         bp.messenger.sendText(id, 'Merhaba ' + event.user.first_name + ". Bugun hangi konuda fikir edinmek istersin?", { typing: true, waitDelivery: true })
     //} else if (event.konu.includes("merhaba") || event.konu.includes("danismanlik")) {
         //bp.messenger.sendText(id, "Maalesef artik Arda birebir danismanlik ve gorusme icin vakit bulamiyor. Ben elimden geleni yapiyorum. Emin olabilirsin. Yine de icin rahatlasin diye soyluyorum, Arda bu konusmalarimizi inceleyecek. Onun cevaplamasi gereken bir sey olursa mutlaka gorur.", { typing: true, waitDelivery: true })
