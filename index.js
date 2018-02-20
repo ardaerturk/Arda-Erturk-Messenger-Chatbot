@@ -154,7 +154,7 @@ module.exports = function(bp) {
         bp.messenger.sendText(id, "👍", { typing: true, waitDelivery: true })
     } else if ((event.konu.includes("merhaba") || event.konu.includes("salam") || event.konu.includes("meraba") || event.konu.includes("selamun")  || event.konu.includes("selam") || event.konu.includes("maraba")) &&  (event.konu.length < 13)) {
        bp.messenger.sendText(id, 'Merhaba ' + event.user.first_name + ". Bugun hangi konuda fikir edinmek istersin?", { typing: true, waitDelivery: true })
-    } else if ((event.konu.includes("gocmen") || event.konu.includes("gocmenlik") || event.konu.includes("goc") || event.konu.includes("gelmek") {
+    } else if ((event.konu.includes("gocmen") || event.konu.includes("gocmenlik") || event.konu.includes("goc") || event.konu.includes("gelmek")) {
        bp.messenger.sendText(id, "Anliyorum " + event.user.first_name + ". Bununla ilgili olarak Arda bir cok video cekti. Ona direk sormadan once, emek vererek hazirladigi videolari izler misin? Lutfen asagidaki menuden gocmenlik butonuna tikla ve sana bu videolardan birini gondereyim.", { typing: true, waitDelivery: true })
        return bp.messenger.sendText(event.user.id, text, pickCategory)
 
