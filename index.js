@@ -101,14 +101,14 @@ module.exports = function(bp) {
   // if the user wants the admin to answer their question, then let them know.
   // precondition; user needs to begin the message with "Sen cevaplama"
   bp.hear({
-	type: 'message',
-	text: /^sen cevaplama/i
+  type: 'message',
+  text: /^sen cevaplama/i
   }, (event, next) => {
-	const id = event.user.id
-	const first_name = event.user.first_name
+  const id = event.user.id
+  const first_name = event.user.first_name
 
-	const text = 'Peki ' + event.user.first_name + ". Bu mesajini Arda en kisa surede inceleyecek. Yogunluktan dolayi kesin cevap verip veremeyecegini maalesef kestiremiyorum. Eger videolarinda cevabini bulamadiysan buyuk ihtimalle cevap verir. Yine de beni kaybetmedin. Sana bilgi vermeye devam edecegim."
-	bp.messenger.sendText(id, text, { typing: true, waitDelivery: true })
+  const text = 'Peki ' + event.user.first_name + ". Bu mesajini Arda en kisa surede inceleyecek. Yogunluktan dolayi kesin cevap verip veremeyecegini maalesef kestiremiyorum. Eger videolarinda cevabini bulamadiysan buyuk ihtimalle cevap verir. Yine de beni kaybetmedin. Sana bilgi vermeye devam edecegim."
+  bp.messenger.sendText(id, text, { typing: true, waitDelivery: true })
   })
   
 
@@ -133,12 +133,17 @@ module.exports = function(bp) {
       event.konu = event.konu.replace(/ş/g, 's');
       event.konu = event.konu.replace(/ı/g, 'i');
       event.konu = event.konu.replace(/ğ/g, 'g');
-      event.konu = event.konu.replace(/ü/g, 'u');  
+      event.konu = event.konu.replace(/ü/g, 'u');
 
+
+
+      // deal with refugee related questions
       if (event.konu.includes("iltica") || event.konu.includes("multeci") || event.konu.includes("siginma")) {
         bp.messenger.sendText(id, "Maalesef bu konularda yardimci olamiyorum!", { typing: true, waitDelivery: true })
     } else if (event.konu.includes("illegal")) {
         bp.messenger.sendText(id, 'Sana tek onerim bu islere girmemen. Hayatini riske sokacak hic bir sey yapma!', { typing: true, waitDelivery: true })
+    
+      // general questions
     } else if (event.konu.includes("birebir") || event.konu.includes("danismanlik")) {
         bp.messenger.sendText(id, "Maalesef artik Arda birebir danismanlik ve gorusme icin vakit bulamiyor. Ben elimden geleni yapiyorum. Emin olabilirsin. Yine de icin rahatlasin diye soyluyorum, Arda bu konusmalarimizi inceleyecek. Onun cevaplamasi gereken bir sey olursa mutlaka gorur.", { typing: true, waitDelivery: true })
     } else if (event.konu.includes("basarilar") || event.konu.includes("tebrikler") || event.konu.includes("tesekkur") || event.konu.includes("tesekkurler")) {
@@ -149,10 +154,16 @@ module.exports = function(bp) {
         bp.messenger.sendText(id, "👍", { typing: true, waitDelivery: true })
     } else if ((event.konu.includes("merhaba") || event.konu.includes("salam") || event.konu.includes("meraba") || event.konu.includes("selamun")  || event.konu.includes("selam") || event.konu.includes("maraba")) &&  (event.konu.length < 13)) {
        bp.messenger.sendText(id, 'Merhaba ' + event.user.first_name + ". Bugun hangi konuda fikir edinmek istersin?", { typing: true, waitDelivery: true })
+    } else if ((event.konu.includes("gocmen") || event.konu.includes("gocmenlik") || event.konu.includes("goc") || event.konu.includes("gelmek") {
+       bp.messenger.sendText(id, "Anliyorum " + event.user.first_name + ". Bununla ilgili olarak Arda bir cok video cekti. Ona direk sormadan once, emek vererek hazirladigi videolari izler misin? Lutfen asagidaki menuden gocmenlik butonuna tikla ve sana bu videolardan birini gondereyim.", { typing: true, waitDelivery: true })
+       return bp.messenger.sendText(event.user.id, text, pickCategory)
+
+
+    // deal with immigration related questions
     } else {
         const text = _.sample(DEFAULT_ANSWERS(event))
           return bp.messenger.sendText(event.user.id, text, pickCategory)
-    	//bp.messenger.sendText(id, 'Lutfen asagidaki butonlardan secimini yaparak istedigin konuda bilgi edin! Izledikten sonra hala sorun olursa merak etme. Arda bu konusmalarimizi inceleyecek.', pickCategory)
+      //bp.messenger.sendText(id, 'Lutfen asagidaki butonlardan secimini yaparak istedigin konuda bilgi edin! Izledikten sonra hala sorun olursa merak etme. Arda bu konusmalarimizi inceleyecek.', pickCategory)
     }
 })
 
@@ -196,10 +207,10 @@ bp.hear({
     bp.sendDailyVideo(event.user.id)
   })
 
-// for turkish messenger
+// for messenger in turkish
   bp.hear({
     type: 'postback',
-    text: 'BASLA' 
+    text: 'GETTING_STARTED' 
   }, (event, next) => {
     const { first_name, last_name } = event.user
     bp.logger.info('New user:', first_name, last_name)
