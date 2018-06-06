@@ -6,3 +6,6 @@ This Facebook Messenger Chatbot answers your questions about Canada and suggests
 TR:
 Bu Facebook Messenger Chatbot'u, Kanada hakkinda sorularinizi yanitlar ve Youtube videolarimdan sorunuzla alakali videolarimdan sunar. (https://www.youtube.com/ardaerturk) Bu bot Botpress platformu uzerinden uretilmistir.
 # Arda-Erturk-Messenger-Chatbot
+
+
+NOTE: NOT FUNCTIONAL DUE TO FACEBOOK'S NEW PRIVACY POLICIES. (AS OF JUNE 6)
